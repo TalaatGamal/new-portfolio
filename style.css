@@ -255,7 +255,25 @@ header .content img{
     display: flex;
     align-items: center;
     justify-content: center;
- }/*
+ }
+ #login-page{
+    background-image: url(images/login-page-desigen.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ #login-page h1{
+    width: 25vw;
+    height: 30vh;
+    background-color: #000000a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ 
+ 
+ /*
 .med-info{
     background-color: rgba(0, 255, 255, 0);
     width: max-content;
@@ -662,7 +680,10 @@ header .content img{
     border-bottom: #00000000 solid 4px;
     padding: 100px;
 }
-
+#home #content #text h1{
+    position: absolute;
+    top: 30vh;
+}
 #home #content #imgo{
     min-width: 40vw;
     width: 100vw;
@@ -671,9 +692,9 @@ header .content img{
     justify-content: center;
     height: max-content;
     overflow: hidden;
-    background-color: #69696900;
+    background-color: #ff0000;
     /* position: absolute;
-    top: 60vh; */
+    top: 60vh;  */
 }
 #home #content #img{
     background-color: rgba(0, 0, 0, 0);
@@ -686,6 +707,8 @@ header .content img{
 }
 #home #content #img img{
     width: 300px;
+    position: absolute;
+    top: 50vh;  
 }
 
 #container{
@@ -795,12 +818,12 @@ header .content img{
 
 #usa-lottery h1{
     width: 100%;
-    height: 30vh;
-    background-color: #000000d6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
+
+#login-page h1{
+    width: 100vw;
+ }
+ 
 
 #skills-div{
     width: 100vw;
@@ -892,11 +915,11 @@ header .content img{
  }
  #services {
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: rgba(0, 0, 0, 0.508);
     width: 100vw;
     height: max-content;
     min-height: 100vh;
-    background-image: url(images/massimiliano-r-Xo8fxc_6w-unsplash.jpg);
+    /* background-image: url(images/massimiliano-r-Xo8fxc_6w-unsplash.jpg); */
     background-position:bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1009,6 +1032,7 @@ header .content img{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .content-infoo-footer h2{
     color: #ffffff;
