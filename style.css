@@ -255,7 +255,7 @@ header .content img{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+ }/*
 .med-info{
     background-color: rgba(0, 255, 255, 0);
     width: max-content;
@@ -294,7 +294,7 @@ header .content img{
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-size: 30px;
-}
+} */
 .skills-and-experience{
     width: 100vw;
     height: max-content;
@@ -391,11 +391,11 @@ header .content img{
 } */
 #services {
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: rgba(0, 0, 0, 0.753);
     width: 100vw;
     height: max-content;
     min-height: 100vh;
-    background-image: url(images/massimiliano-r-Xo8fxc_6w-unsplash.jpg);
+    /* background-image: url(images/massimiliano-r-Xo8fxc_6w-unsplash.jpg); */
     background-position:bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -695,7 +695,7 @@ header .content img{
     height: max-content;
     z-index: 1;
 }
-
+/* 
 #med-info{
     background-color: rgba(0, 255, 255, 0);
     width: max-content;
@@ -734,7 +734,7 @@ header .content img{
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-size: 30px;
-}
+} */
 
 #info{
     background-color: #696969;
