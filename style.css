@@ -147,6 +147,7 @@ header .content img{
 .home .content .texto{
     width: 40vw;
     height: 80vh;
+    padding-top: 15vh;
     overflow: hidden;
     /* background-color: #2222225d; */
     border-radius: 30px;
@@ -170,6 +171,7 @@ header .content img{
 .home .content .imgo{
     width: 40vw;
     height: 80vh;
+    padding-top: 20vh;
     overflow: hidden;
     background-color: #69696900;
 
@@ -217,6 +219,8 @@ header .content img{
 }
 .title-projects-div{
     background-color: #000000af;
+    border-left: #009dff solid 8px;
+    border-right: #00a2ff solid 8px;
     width: 100vw;
     position: absolute;
     top: 100vh;
@@ -362,7 +366,8 @@ header .content img{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: #0091ff6a solid 20px;
+    border-left: #009dff solid 8px;
+    border-right: #00a2ff solid 8px;
     padding: 30px;
 }
 .content-skills{
@@ -394,7 +399,8 @@ header .content img{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-left: #ff000081 solid 20px;
+    border-left: #009dff solid 8px;
+    border-right: #00a2ff solid 8px;
     padding: 30px;
 }
 .content-experience{
@@ -449,6 +455,9 @@ header .content img{
     margin-bottom: 20px;
     color: #ffffff;
     background-color: #000000c8;
+    border-left: #009dff solid 8px;
+    border-right: #00a2ff solid 8px;
+    border-top: #009dff solid 4px;
     width: 100vw;
     height: 15vh;
     display: flex;
@@ -781,7 +790,8 @@ header .content img{
 .infoo{
     overflow: hidden;
     background-color: rgba(0, 255, 255, 0);
-    /* border: #676767 solid 4px; */
+    border-left: #009dff solid 8px;
+    border-right: #00a2ff solid 8px;
     width: 100vw;
     height: max-content;
     min-height: 15vh;
@@ -807,9 +817,9 @@ header .content img{
     height: 10vh;
 }
 .histoy-and-developer{
-    border: #ffffff solid 2px;
-    border-radius: 20px;
-    /* padding: 20px; */
+    border-left: #009dff solid 8px;
+    border-right: #00a2ff solid 8px;
+    border-radius: 0px;
     width: 100vw;
     height: 10vh;
     overflow: hidden;
